@@ -1,0 +1,28 @@
+
+--- Custom Dataset ---
+   id                                               text
+0   1            I am playing Borderlands and loving it!
+1   2  Borderlands 2 is amazing, but sometimes frustr...
+2   3  I will murder you all in Borderlands (just kid...
+
+--- TOKENIZATION ---
+Whitespace Tokens: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it!']
+Punctuation-based Tokens: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it', '!']
+Treebank Tokens: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it', '!']
+Tweet Tokens: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it', '!']
+MWE Tokens: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it', '!']
+
+--- STEMMING ---
+Porter Stemmer: ['i', 'am', 'play', 'borderland', 'and', 'love', 'it!']
+Snowball Stemmer: ['i', 'am', 'play', 'borderland', 'and', 'love', 'it!']
+
+--- LEMMATIZATION ---
+WordNet Lemmatizer: ['I', 'am', 'playing', 'Borderlands', 'and', 'loving', 'it!']
+
+--- APPLYING TO ENTIRE DATASET ---
+   id  ...                                             lemmas
+0   1  ...  [I, am, playing, Borderlands, and, loving, it, !]
+1   2  ...  [Borderlands, 2, is, amazing, ,, but, sometime...
+2   3  ...  [I, will, murder, you, all, in, Borderlands, (...
+
+[3 rows x 6 columns]
