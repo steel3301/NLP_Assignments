@@ -1,0 +1,38 @@
+Original Text:
+NLTK is great! I love Natural Language Processing :) #NLP @OpenAI
+
+Whitespace Tokenization:
+['NLTK', 'is', 'great!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#NLP', '@OpenAI']
+
+Punctuation-based Tokenization:
+['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#', 'NLP', '@', 'OpenAI']
+
+Treebank Tokenization:
+['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':', ')', '#', 'NLP', '@', 'OpenAI']
+
+Tweet Tokenization:
+['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#NLP', '@OpenAI']
+
+MWE Tokenization:
+['i', 'live', 'in', 'new_york_city', 'and', 'work', 'on', 'machine', 'learning.']
+
+Porter Stemmer:
+running -> run
+runs -> run
+runner -> runner
+easily -> easili
+fairly -> fairli
+
+Snowball Stemmer:
+running -> run
+runs -> run
+runner -> runner
+easily -> easili
+fairly -> fair
+
+Lemmatization:
+running -> running
+better -> better
+cars -> car
+went -> went
+PS D:\New folder\NLP_Assignments> 
