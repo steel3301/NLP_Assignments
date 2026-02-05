@@ -1,38 +1,10 @@
-Original Text:
-NLTK is great! I love Natural Language Processing :) #NLP @OpenAI
+Word: good
 
-Whitespace Tokenization:
-['NLTK', 'is', 'great!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#NLP', '@OpenAI']
+Synonyms:
+{'unspoiled', 'good', 'right', 'ripe', 'well', 'full', 'effective', 'near', 'just', 'beneficial', 'thoroughly', 'serious', 'respectable', 'proficient', 'skillful', 'undecomposed', 'sound', 'estimable', 'adept', 'goodness', 'dear', 'in_force', 'commodity', 'safe', 'secure', 'in_effect', 'soundly', 'trade_good', 'unspoilt', 'honorable', 'dependable', 'skilful', 'salutary', 'honest', 'practiced', 'expert', 'upright'}
 
-Punctuation-based Tokenization:
-['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#', 'NLP', '@', 'OpenAI']
+Antonyms:
+{'evil', 'badness', 'ill', 'bad', 'evilness'}
 
-Treebank Tokenization:
-['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':', ')', '#', 'NLP', '@', 'OpenAI']
-
-Tweet Tokenization:
-['NLTK', 'is', 'great', '!', 'I', 'love', 'Natural', 'Language', 'Processing', ':)', '#NLP', '@OpenAI']
-
-MWE Tokenization:
-['i', 'live', 'in', 'new_york_city', 'and', 'work', 'on', 'machine', 'learning.']
-
-Porter Stemmer:
-running -> run
-runs -> run
-runner -> runner
-easily -> easili
-fairly -> fairli
-
-Snowball Stemmer:
-running -> run
-runs -> run
-runner -> runner
-easily -> easili
-fairly -> fair
-
-Lemmatization:
-running -> running
-better -> better
-cars -> car
-went -> went
-PS D:\New folder\NLP_Assignments> 
+Hypernyms:
+{'advantage.n.01', 'quality.n.01', 'artifact.n.01', 'morality.n.01'}
